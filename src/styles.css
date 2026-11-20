@@ -176,3 +176,5 @@ ul, ol { list-style: none; }
 .card::before { display: none; }
 .thumb { width: 52px; height: 52px; border-radius: 12px; object-fit: cover; }
 .credits { font-size: .7rem; opacity: .6; max-width: 900px; margin: 0 auto; }
+.about { padding-top: 70px; padding-bottom: 0; text-align: center; }
+.about p { color: var(--muted); margin-top: 14px; }

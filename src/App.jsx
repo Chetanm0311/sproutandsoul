@@ -226,6 +226,20 @@ function Faq() {
   )
 }
 
+function About() {
+  return (
+    <section className="section narrow about">
+      <h2>Microgreens delivery in Bangalore</h2>
+      <p>
+        Sprout &amp; Soul grows organic, chemical-free microgreens in Bangalore and harvests them on order.
+        Buy mustard, chia, fenugreek, radish, and wheatgrass microgreens online and get them delivered
+        home across Bengaluru. Add them to salads, smoothies, omelettes, rotis, and sandwiches.
+        Order here or message us on WhatsApp.
+      </p>
+    </section>
+  )
+}
+
 function Insta() {
   return (
     <section className="section insta">
@@ -378,6 +392,7 @@ export default function App() {
       <Steps />
       <Plans />
       <Faq />
+      <About />
       <Insta />
       <Footer />
 
